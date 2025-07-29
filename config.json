@@ -1,0 +1,14 @@
+{
+  "input_file": "old.bin",
+  "output_file": "new.bin",
+  "replacements": [
+    {
+        "old_hex":"ABCDEF",
+        "new_hex":"123456" 
+    },
+    {
+        "old_hex":"FF FF FF",
+        "new_hex":"12 34 56" 
+    }
+  ]
+}
