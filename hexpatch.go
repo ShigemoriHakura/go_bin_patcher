@@ -21,19 +21,16 @@ type Replacement struct {
 }
 
 func printBanner() {
-	fmt.Println("╔══════════════════════════════════════════════════╗")
-	fmt.Println("║                ██╗  ██╗███████╗██╗  ██╗          ║")
-	fmt.Println("║                ██║  ██║██╔════╝╚██╗██╔╝          ║")
-	fmt.Println("║                ███████║█████╗   ╚███╔╝           ║")
-	fmt.Println("║                ██╔══██║██╔══╝   ██╔██╗           ║")
-	fmt.Println("║                ██║  ██║███████╗██╔╝ ██╗          ║")
-	fmt.Println("║                ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝          ║")
-	fmt.Println("╟──────────────────────────────────────────────────╢")
-	fmt.Println("║          HexPatch v1.0 - Binary Hex Patcher      ║")
-	fmt.Println("╟──────────────────────────────────────────────────╢")
-	fmt.Printf("║          Usage: %-31s  ║\n", "hexpatch config.json")
-	fmt.Printf("║         Config: %-31s  ║\n", "JSON configuration")
-	fmt.Println("╚══════════════════════════════════════════════════╝")
+	fmt.Println("╔══════════════════════════════════════════════╗")
+	fmt.Println("║            ██╗  ██╗███████╗██╗  ██╗          ║")
+	fmt.Println("║            ██║  ██║██╔════╝╚██╗██╔╝          ║")
+	fmt.Println("║            ███████║█████╗   ╚███╔╝           ║")
+	fmt.Println("║            ██╔══██║██╔══╝   ██╔██╗           ║")
+	fmt.Println("║            ██║  ██║███████╗██╔╝ ██╗          ║")
+	fmt.Println("║            ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝          ║")
+	fmt.Println("╟──────────────────────────────────────────────╢")
+	fmt.Println("║      HexPatch v1.0 - Binary Hex Patcher      ║")
+	fmt.Println("╚══════════════════════════════════════════════╝")
 	fmt.Println()
 }
 
